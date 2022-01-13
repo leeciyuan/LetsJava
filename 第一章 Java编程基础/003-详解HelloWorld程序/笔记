@@ -1,0 +1,8 @@
+在桌面上存着HelloWorld.java的文件 这个Java文件的名字也必须跟类的名字相同
+在Mac的终端输入 
+cd（change directory）   进入这个路径
+cd Desktop/    进入桌面
+ls(list)    列出目录下的文件
+javac HelloWorld.java  javac(java compiler Java编译器）回车以后没有任何输出说明HelloWorld.java写的没有问题
+再输入ls 会发现桌面多了一个.class的文件 即字节码文件
+java HelloWorld就可以输出了
